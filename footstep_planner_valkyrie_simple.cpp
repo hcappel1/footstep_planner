@@ -137,21 +137,17 @@ void Create_Nodes(double x_i_LF,double y_i_LF,double x_i_RF, double y_i_RF,doubl
 	int m = 1;
 	int n = -2;
 
-
 	vector< vector<double> > LF_coords;
 	vector< vector<double> > RF_coords;
 
 	//////////////////
 	if (current_node.turn == true){ //true = LF turn to move
 		while (k < 0){
-
         	double temp_val_x = 0.2*k;
-
         	x_i_LF_new = x_i_RF + temp_val_x;
         	x_i_LF_vals.push_back(x_i_LF_new);
         	k++;
     	}
-
 
     	while (f < 3){
         	double temp_val_y = 0.2*f;
