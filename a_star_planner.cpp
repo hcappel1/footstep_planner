@@ -120,6 +120,7 @@ void Create_Nodes(double x_i,double y_i,double x_f,double y_f, std::map<std::str
 
 	vector< vector<double> > coords;
 	// theta_vals = [0,45,90,135,180];
+
 	int k = -3;
 	//append all new x,y values for both LF and RF going down and left from original coordinates
 	while (k <= 3){
